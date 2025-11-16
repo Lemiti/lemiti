@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lemi Negeso | Portfolio</title>
+  <title>Lemi Negeso | Portfolio - Aspiring ML Engineer | Electrical & Computer Engineering Student</title>
   <link rel="stylesheet" href="styles.css" />
   <link rel="icon" href="assets/favicon.ico" />
   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
@@ -19,7 +19,7 @@
 
   <!-- Navigation -->
   <nav class="navbar fixed">
-    <div class="logo">Lemi</div>
+    <div class="logo">Lemi Negeso</div>
     <ul class="nav-links">
       <li><a href="#home">Home</a></li>
       <li><a href="#projects">Projects</a></li>
@@ -37,65 +37,258 @@
     <canvas id="heroCanvas"></canvas>
     <div class="hero-text">
       <h1>Hello, I'm <span>Lemi Negeso</span></h1>
-      <p><i>Tech Explorer & Problem Solver</i></p>
-      <p><b>"Crafting smart solutions for real-world problems."</b></p>
-      <p>I believe technology is more than machines and code—it's a way to serve others, solve meaningful challenges, and uncover the amazing design hidden in the universe.</p>
+      <p class="hero-subtitle">Aspiring ML Engineer | Electrical & Computer Engineering Student</p>
+      <p class="hero-tagline">"Building intelligent solutions that transform raw data into actionable insights."</p>
+      <p class="hero-description">I specialize in Natural Language Processing, Data Extraction, Machine Learning, Automation, and Web Scraping. My passion is creating end-to-end automation systems that solve real-world problems and drive business impact.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="cta-button">View My Work</a>
+        <a href="#contact" class="cta-button secondary">Get in Touch</a>
+      </div>
     </div>
   </header>
 
   <!-- Projects Section -->
   <section id="projects" class="section projects">
-    <h2 class="section-title">Projects</h2>
+    <h2 class="section-title">Featured Projects</h2>
     <div class="filter-buttons">
-      <button data-filter="all">All</button>
-      <button data-filter="web">Web</button>
-      <button data-filter="ml">AI/ML</button>
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="nlp">NLP & Data Extraction</button>
+      <button class="filter-btn" data-filter="ml">Machine Learning</button>
+      <button class="filter-btn" data-filter="web">Web & Visualization</button>
     </div>
     <div class="projects-grid" id="projectGrid">
-      <div class="project-card" data-category="iot">
-        <h3>Smart Energy for Home Automation</h3>
-        <p>A relay-based IoT system to monitor power usage, room temperature, device runtime, and provide smart alerts—all without expensive smart appliances.</p>
+      <!-- NLP & Data Extraction Projects -->
+      <div class="project-card" data-category="nlp" data-tech="Python, XLM-Roberta, NLP, NER, SHAP/LIME, Data Extraction" data-link="https://github.com/Lemiti/amharic_e-commerce_data_extractor">
+        <div class="project-header">
+          <h3>Amharic E-commerce Data Extractor for EthioMart</h3>
+          <span class="project-badge">NLP & Data Extraction</span>
+        </div>
+        <p>Developed a robust Named Entity Recognition (NER) system to automate extraction of structured data (product, price, location) from unstructured Amharic text messages on Telegram e-commerce channels. Fine-tuned multilingual LLMs (XLM-Roberta) and integrated with EthioMart's platform to generate Vendor Scorecards for micro-lending decisions.</p>
+        <div class="project-tech">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">XLM-Roberta</span>
+          <span class="tech-tag">NLP</span>
+          <span class="tech-tag">NER</span>
+          <span class="tech-tag">SHAP/LIME</span>
+        </div>
       </div>
-      <div class="project-card" data-category="ml" data-tech="Python, NLP" data-link="https://github.com/Lemiti/fintech-review-analysis.git">
-        <h3>Fintech App Review Analysis</h3>
-        <p>This project analyzes customer feedback from the google play store for three Ethiopian banking apps:</p>
+
+      <div class="project-card" data-category="nlp" data-tech="Python, RAG, LLMs, FAISS, ChromaDB, Streamlit, Semantic Search" data-link="https://github.com/Lemiti/rag-powered-chatbot00">
+        <div class="project-header">
+          <h3>Intelligent Complaint Analysis for Financial Services (RAG Chatbot)</h3>
+          <span class="project-badge">RAG & LLMs</span>
+        </div>
+        <p>Built a Retrieval-Augmented Generation (RAG) chatbot that transforms customer complaints into actionable insights for CreditTrust Financial. Implemented semantic search using FAISS/ChromaDB, integrated open-source LLMs (Mistral, Llama 2), and developed a user-friendly Streamlit interface for non-technical teams to analyze complaint trends.</p>
+        <div class="project-tech">
+          <span class="tech-tag">RAG</span>
+          <span class="tech-tag">LLMs</span>
+          <span class="tech-tag">FAISS</span>
+          <span class="tech-tag">ChromaDB</span>
+          <span class="tech-tag">Streamlit</span>
+        </div>
       </div>
-      <div class="project-card" data-category="ml" data-tech="Python, NLP" data-link="https://github.com/Lemiti/week1-news-sentiment.git">
-        <h3>News Sentiment Analysis for Stock Prediction</h3>
-        <p>Used NLP tools to analyze how public sentiment affects stock trends. A foundational project during AI/ML training with Kifiya.</p>
+
+      <div class="project-card" data-category="nlp" data-tech="Python, NLP, Sentiment Analysis, Text Processing" data-link="https://github.com/Lemiti/fintech-review-analysis.git">
+        <div class="project-header">
+          <h3>Fintech App Review Analysis</h3>
+          <span class="project-badge">NLP & Sentiment</span>
+        </div>
+        <p>Analyzed customer feedback from Google Play Store for three Ethiopian banking apps using advanced NLP techniques. Extracted sentiment patterns, identified key pain points, and provided actionable recommendations for product improvement teams.</p>
+        <div class="project-tech">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">NLP</span>
+          <span class="tech-tag">Sentiment Analysis</span>
+          <span class="tech-tag">Text Processing</span>
+        </div>
       </div>
-      <div class="project-card" data-category="web">
-        <h3>Scheduler Mobile App (In Progress)</h3>
-        <p>Designed a planner app with dynamic task allocation, customizable views, and notification features. Paused but highly informative design process.</p>
+
+      <!-- Machine Learning Projects -->
+      <div class="project-card" data-category="ml" data-tech="Python, Scikit-learn, Pandas, Feature Engineering, SHAP, Data Cleaning" data-link="https://github.com/Lemiti/fraud-detection">
+        <div class="project-header">
+          <h3>Fraud Detection for E-Commerce and Bank Transactions</h3>
+          <span class="project-badge">Machine Learning</span>
+        </div>
+        <p>Enhanced fraud detection capabilities for Adey Innovations Inc. by analyzing e-commerce and credit card transaction datasets. Engineered features from behavioral patterns and geolocation data, developed optimized classification models, and employed SHAP for explainable predictions to balance security with user experience.</p>
+        <div class="project-tech">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Scikit-learn</span>
+          <span class="tech-tag">Feature Engineering</span>
+          <span class="tech-tag">SHAP</span>
+          <span class="tech-tag">Data Cleaning</span>
+        </div>
       </div>
-      <div class="project-card" data-category="ml">
-        <h3>10 Academy Challenges</h3>
-        <p>Ongoing weekly tasks in Git, EDA, NLP, and teamwork—enhancing both technical depth and real-world data skills.</p>
+
+      <div class="project-card" data-category="ml" data-tech="Python, Pandas, Time-Series Analysis, Bayesian Methods" data-link="https://github.com/Lemiti/week1-news-sentiment">
+        <div class="project-header">
+          <h3>News Sentiment Analysis for Stock Prediction</h3>
+          <span class="project-badge">NLP & ML</span>
+        </div>
+        <p>Analyzed how public sentiment from news articles affects stock market trends using NLP and machine learning. Built predictive models to correlate sentiment shifts with price movements, providing data-driven insights for investment decision-making.</p>
+        <div class="project-tech">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">NLP</span>
+          <span class="tech-tag">Sentiment Analysis</span>
+          <span class="tech-tag">ML</span>
+        </div>
+      </div>
+
+      <!-- Web & Visualization Projects -->
+      <div class="project-card" data-category="web" data-tech="Python, Streamlit, Time-Series Analysis, Bayesian Change Point Detection, Data Visualization" data-link="https://github.com/Lemiti/change-point-analysis-">
+        <div class="project-header">
+          <h3>Brent Oil Price Structural Change Detection & Interactive Dashboard</h3>
+          <span class="project-badge">Data Visualization</span>
+        </div>
+        <p>Analyzed historical Brent oil prices (1987–2022) to identify structural shifts and visualize price dynamics. Applied Bayesian Change Point Detection techniques to pinpoint major structural changes and developed an interactive Streamlit dashboard providing data-driven insights for policy and decision-making in the energy sector.</p>
+        <div class="project-tech">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Streamlit</span>
+          <span class="tech-tag">Time-Series Analysis</span>
+          <span class="tech-tag">Data Visualization</span>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="web" data-tech="Python, Pandas, Data Analysis, Interactive Dashboard" data-link="https://github.com/Lemiti/financial-complaint-dashboard-w12"">
+        <div class="project-header">
+          <h3>CFPB Consumer Complaint Analyst</h3>
+          <span class="project-badge">Data Analytics</span>
+        </div>
+        <p>Developed an intelligent dashboard for analyzing consumer financial complaints with AI-powered semantic search capabilities. Provides actionable insights for compliance and product teams to identify trends and emerging issues in customer feedback.</p>
+        <div class="project-tech">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Data Analysis</span>
+          <span class="tech-tag">Dashboard</span>
+          <span class="tech-tag">Semantic Search</span>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="web" data-tech="IoT, Arduino, Relay Control, Monitoring Systems">
+        <div class="project-header">
+          <h3>Smart Energy for Home Automation</h3>
+          <span class="project-badge">IoT & Systems</span>
+        </div>
+        <p>Designed and implemented a relay-based IoT system to monitor power usage, room temperature, and device runtime with smart alerts. Provides an affordable alternative to expensive smart appliances while maintaining real-time monitoring and control capabilities.</p>
+        <div class="project-tech">
+          <span class="tech-tag">IoT</span>
+          <span class="tech-tag">Arduino</span>
+          <span class="tech-tag">Relay Control</span>
+          <span class="tech-tag">Monitoring</span>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Skills Section -->
   <section id="skills" class="section skills">
-    <h2 class="section-title">Skills</h2>
+    <h2 class="section-title">Technical Skills</h2>
     <div class="skills-container">
-      <div class="skill-card" data-tooltip="Java">
-        <div class="bar" style="width: 90%">Java</div>
+      <div class="skill-category">
+        <h4>Programming Languages</h4>
+        <div class="skill-list">
+          <div class="skill-item">
+            <span>Python</span>
+            <div class="skill-bar"><div class="skill-fill" style="width: 95%"></div></div>
+          </div>
+          <div class="skill-item">
+            <span>Java</span>
+            <div class="skill-bar"><div class="skill-fill" style="width: 85%"></div></div>
+          </div>
+          <div class="skill-item">
+            <span>SQL</span>
+            <div class="skill-bar"><div class="skill-fill" style="width: 80%"></div></div>
+          </div>
+          <div class="skill-item">
+            <span>C</span>
+            <div class="skill-bar"><div class="skill-fill" style="width: 75%"></div></div>
+          </div>
+        </div>
       </div>
-      <div class="skill-card" data-tooltip="Python">
-        <div class="bar" style="width: 80%">Python</div>
+
+      <div class="skill-category">
+        <h4>Data Science & ML</h4>
+        <div class="skill-list">
+          <div class="skill-item">
+            <span>Scikit-learn</span>
+            <div class="skill-bar"><div class="skill-fill" style="width: 90%"></div></div>
+          </div>
+          <div class="skill-item">
+            <span>Pandas & NumPy</span>
+            <div class="skill-bar"><div class="skill-fill" style="width: 92%"></div></div>
+          </div>
+          <div class="skill-item">
+            <span>Data Cleaning & EDA</span>
+            <div class="skill-bar"><div class="skill-fill" style="width: 88%"></div></div>
+          </div>
+          <div class="skill-item">
+            <span>Feature Engineering</span>
+            <div class="skill-bar"><div class="skill-fill" style="width: 85%"></div></div>
+          </div>
+        </div>
       </div>
-      <div class="skill-card" data-tooltip="C">
-        <div class="bar" style="width: 70%">C</div>
+
+      <div class="skill-category">
+        <h4>NLP & LLMs</h4>
+        <div class="skill-list">
+          <div class="skill-item">
+            <span>Named Entity Recognition (NER)</span>
+            <div class="skill-bar"><div class="skill-fill" style="width: 88%"></div></div>
+          </div>
+          <div class="skill-item">
+            <span>Sentiment Analysis</span>
+            <div class="skill-bar"><div class="skill-fill" style="width: 85%"></div></div>
+          </div>
+          <div class="skill-item">
+            <span>RAG & LLMs</span>
+            <div class="skill-bar"><div class="skill-fill" style="width: 82%"></div></div>
+          </div>
+          <div class="skill-item">
+            <span>Hugging Face & Transformers</span>
+            <div class="skill-bar"><div class="skill-fill" style="width: 85%"></div></div>
+          </div>
+        </div>
       </div>
-      <div class="skill-card" data-tooltip="MySQL">
-        <div class="bar" style="width: 75%">MySQL</div>
+
+      <div class="skill-category">
+        <h4>Data Engineering & Tools</h4>
+        <div class="skill-list">
+          <div class="skill-item">
+            <span>Web Scraping</span>
+            <div class="skill-bar"><div class="skill-fill" style="width: 80%"></div></div>
+          </div>
+          <div class="skill-item">
+            <span>ETL & Data Pipelines</span>
+            <div class="skill-bar"><div class="skill-fill" style="width: 78%"></div></div>
+          </div>
+          <div class="skill-item">
+            <span>FAISS & ChromaDB</span>
+            <div class="skill-bar"><div class="skill-fill" style="width: 80%"></div></div>
+          </div>
+          <div class="skill-item">
+            <span>Git & Linux</span>
+            <div class="skill-bar"><div class="skill-fill" style="width: 88%"></div></div>
+          </div>
+        </div>
       </div>
-      <div class="skill-card" data-tooltip="HTML/CSS/JS">
-        <div class="bar" style="width: 65%">Web Development</div>
-      </div>
-      <div class="skill-card" data-tooltip="Arduino, Git, Linux">
-        <div class="bar" style="width: 85%">IoT & Tools</div>
+
+      <div class="skill-category">
+        <h4>Visualization & Deployment</h4>
+        <div class="skill-list">
+          <div class="skill-item">
+            <span>Streamlit & Gradio</span>
+            <div class="skill-bar"><div class="skill-fill" style="width: 85%"></div></div>
+          </div>
+          <div class="skill-item">
+            <span>Matplotlib & Seaborn</span>
+            <div class="skill-bar"><div class="skill-fill" style="width: 82%"></div></div>
+          </div>
+          <div class="skill-item">
+            <span>SHAP & LIME</span>
+            <div class="skill-bar"><div class="skill-fill" style="width: 80%"></div></div>
+          </div>
+          <div class="skill-item">
+            <span>Web Development (HTML/CSS/JS)</span>
+            <div class="skill-bar"><div class="skill-fill" style="width: 75%"></div></div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -103,30 +296,62 @@
   <!-- About Section -->
   <section id="about" class="section about">
     <h2 class="section-title">About Me</h2>
-    <p class="bio">Hi, I’m Lemi Negeso, an Electrical and Computer Engineering student at Addis Ababa University. I’m passionate about using technology to simplify life, solve real-world problems, and appreciate the beauty of design found in creation. I chose ECE because it combines programming, physics, and mathematics subjects I loved since childhood. I enjoy reading and experimenting independently, then collaborating with others in a friendly, fun environment. My motivation is to do good while I’m alive and use tech to serve others.</p>
+    <div class="about-content">
+      <p class="bio">
+        I'm Lemi Negeso, an Electrical and Computer Engineering student at Addis Ababa University with a passion for leveraging technology to solve real-world problems. My expertise spans <strong>Natural Language Processing, Data Extraction, Machine Learning, and Data Automation</strong>—areas where I've successfully delivered impactful projects for businesses across fintech, e-commerce, and energy sectors.
+      </p>
+      <p class="bio">
+        I believe in the power of data-driven decision-making and am committed to building intelligent systems that transform raw data into actionable insights. Whether it's fine-tuning multilingual NLP models, designing fraud detection systems, or creating interactive dashboards, I approach every challenge with curiosity, rigor, and a focus on delivering measurable business value.
+      </p>
+      <p class="bio">
+        Beyond technical skills, I value collaboration, continuous learning, and the opportunity to work on projects that make a positive impact. I'm always excited to explore new technologies and take on challenges that push the boundaries of what's possible.
+      </p>
+    </div>
     <div class="timeline">
-      <div class="timeline-item">2021/2022 - Started BSc in Electrical and Computer Engineering</div>
-      <div class="timeline-item">2023/2024 - Completed IoT-based Project</div>
-      <div class="timeline-item">2024/2025 - Joined 10 Academy and refined Data & ML Skills</div>
+      <div class="timeline-item">
+        <span class="timeline-year">2025/2026</span>
+        <span class="timeline-text">Started Applied GenAI at Epic Institute of Technlogy</span>
+      </div>
+      <div class="timeline-item">
+        <span class="timeline-year">2024/2025</span>
+        <span class="timeline-text">Joined 10 Academy, refined Data Science & ML skills, completed multiple production projects</span>
+      </div>
+      <div class="timeline-item">
+        <span class="timeline-year">2023/2024</span>
+        <span class="timeline-text">Completed IoT-based Smart Energy project and foundational ML work</span>
+      </div>
+      <div class="timeline-item">
+        <span class="timeline-year">2021/2022</span>
+        <span class="timeline-text">Started BSc in Electrical and Computer Engineering at Addis Ababa University</span>
+      </div>
+        
     </div>
   </section>
 
   <!-- Contact Section -->
   <section id="contact" class="section contact">
     <h2 class="section-title">Get in Touch</h2>
+    <p class="contact-intro">I'm always interested in hearing about new projects and opportunities. Feel free to reach out!</p>
     <form id="contactForm" action="https://formspree.io/f/mqabgkwj">
-      <input type="text" name="name" placeholder="Name" required />
-      <input type="email" name="email" placeholder="Email" required />
-      <textarea name="message" placeholder="Your message..." required></textarea>
-      <button type="submit">Send</button>
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message..." rows="5" required></textarea>
+      <button type="submit">Send Message</button>
       <p id="formFeedback"></p>
     </form>
-    <div id="messageList" class="submitted-messages"></div>
 
     <div class="social-links">
-      <a href="https://www.linkedin.com/in/lemi-negeso/" target="_blank">LinkedIn</a>
-      <a href="https://github.com/Lemiti" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/lemi-negeso/" target="_blank" class="social-link">
+        <span>LinkedIn</span>
+      </a>
+      <a href="https://github.com/Lemiti" target="_blank" class="social-link">
+        <span>GitHub</span>
+      </a>
+      <a href="mailto:your-email@example.com" class="social-link">
+        <span>Email</span>
+      </a>
     </div>
+
     <div id="map"></div>
   </section>
 
@@ -141,6 +366,6 @@
 </body>
 
 <footer>
-  <p>© 2024 Lemi Negeso | Built with HTML/CSS/JS</p>
+  <p>&copy; 2024 Lemi Negeso | Python Developer & Data Automation Specialist | Built with HTML/CSS/JS</p>
 </footer>
 </html>
