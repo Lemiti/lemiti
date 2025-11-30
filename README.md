@@ -1,40 +1,103 @@
-
-
-<!--
-**Lemiti/Lemiti** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-<h1 align="center">Hi 👋, I'm Lemi.</h1>
-<h3 align="center">Tech enthusiast</h3>
-
-- 📫 How to reach me **leminegeso@gmail.com**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/www.linkedin.com/in/lemi-negeso" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="www.linkedin.com/in/lemi-negeso-958817287" height="30" width="40" /> :www.linkedin.com/in/lemi-negeso</a>
+<!-- Cyberpunk Header -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=32&duration=3000&pause=500&color=00F3FF&center=true&vCenter=true&width=800&lines=Lemi+Negeso;Machine+Learning+Engineer+in+Progress;ECE+Student+%7C+AI+%7C+IoT+%7C+Embedded+Systems;Crafting+Smart,+Impactful+Tech+Solutions" />
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
-<details>
-<summary>My top languages</summary>
+---
 
-| Rank | Languages |
-|-----:|-----------|
-|     1| Java      |
-|     2| C         |
-|     3| Python    |
-|     4| JavaScript|
+## 🛸 Profile Snapshot
+Minimalist mindset. Cyberpunk energy.  
+I build intelligent systems where **AI meets hardware**, and data becomes something meaningful.
 
-</details>
+---
 
+## ⚙️ Core Skills
+
+- **AI / Machine Learning:**  
+  NLP · Classic ML · Feature Engineering · Explainability (SHAP/SeqEval)
+- **Data Science:**  
+  EDA · Cleaning · Visualization
+- **Software Engineering:**  
+  Python · Java · Git · APIs
+- **Embedded Systems:**  
+  Arduino · Sensors · IoT workflows
+- **Digital Systems:**  
+  Verilog HDL · Logic Design
+
+---
+
+### 🌑 Tech Stack — Neon Mode
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,java,cpp,linux,git,arduino,regex,tensorflow,pytorch&theme=dark" />
+</p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=vscode,github,stackoverflow,sklearn,postgres&theme=dark" />
+</p>
+
+---
+
+## 🔥 Highlighted Projects
+
+- **Smart Energy Home Automation (IoT + Software)**
+  - Arduino + sensors + relays
+  - Java desktop control interface
+  - Real-time monitoring + automation logic
+  - Hardware–software integration
+
+- **Amharic Named Entity Recognition (AfroXLM-R)**
+  - Dataset processing, model training
+  - Evaluation with SeqEval, explainability with SHAP
+  - Inference pipeline + structured reporting
+
+- **Financial News Sentiment → Stock Signal Analysis**
+  - NLP pipeline
+  - Sentiment scoring
+  - Exploratory financial insights
+
+---
+
+## 🌌 Current Focus
+- ML Engineering foundations
+- MLOps & deployment
+- Embedded ML (Edge AI)
+- Building production-grade projects
+
+---
+
+## 🎛 Animated GitHub Stats
+
+<p align="center">
+  <img width="49.5%" src="https://github-readme-stats.vercel.app/api?username=Lemiti&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img width="49.5%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lemiti&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
+<p align="center">
+  <img width="60%" src="https://github-readme-streak-stats.herokuapp.com/?user=Lemiti&theme=tokyonight&hide_border=true" />
+</p>
+
+---
+
+## 🧬 Animated Wave Divider
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=wave&color=0:00f3ff,100:7a00ff&height=120&section=footer" />
+</p>
+
+---
+
+## ✉️ Let’s Connect
+
+<p align="center">
+  <a href="mailto:leminegeso@gmail.com">
+    <img src="https://img.shields.io/badge/Email-0ff?style=for-the-badge&logo=minutemailer&logoColor=000">
+  </a>
+  <a href="https://www.linkedin.com/in/lemi-negeso/">
+    <img src="https://img.shields.io/badge/LinkedIn-7a00ff?style=for-the-badge&logo=linkedin&logoColor=white">
+  </a>
+  <a href="https://github.com/Lemiti">
+    <img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=0ff">
+  </a>
+</p>
+
+<p align="center">
+  <i>“Engineering is the structure. Intelligence is the spark. I build where the two converge.”</i>
+</p>
