@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260">
+  <defs>
+    <linearGradient id="hg" x1="0" x2="1"><stop offset="0" stop-color="#00f3ff"/><stop offset="1" stop-color="#7a00ff"/></linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="6"/></filter>
+    <style><![CDATA[
+      .card{fill:#071020; stroke:url(#hg); stroke-width:2; rx:16; filter:url(#blur);}
+      .title{font-family: 'Montserrat', sans-serif; font-size:22px; fill:#00f3ff; font-weight:700;}
+      .sub{font-family: 'Inter', sans-serif; font-size:14px; fill:#b3dff0; opacity:0.9;}
+      .pulse{animation: pulse 3s infinite;}
+      @keyframes pulse { 0%{opacity:0.6}50%{opacity:1}100%{opacity:0.6} }
+    ]]></style>
+  </defs>
+  <rect width="100%" height="100%" fill="#01020a"/>
+  <g transform="translate(40,20)">
+    <rect class="card" x="0" y="0" width="820" height="220" rx="16" fill="#071020" stroke="url(#hg)"/>
+    <text x="28" y="42" class="title">IoT — Smart Energy Home Automation</text>
+    <text x="28" y="72" class="sub">Arduino • Sensors • Java interface • Real-time monitoring</text>
+    <g transform="translate(28,100)">
+      <rect x="0" y="0" width="760" height="8" rx="4" fill="#002233" />
+      <rect x="0" y="0" width="520" height="8" rx="4" fill="#00f3ff" opacity="0.12" class="pulse"/>
+    </g>
+    <text x="28" y="160" class="sub">Role: hardware–software integration, sensor calibration, serial comms.</text>
+  </g>
+</svg>

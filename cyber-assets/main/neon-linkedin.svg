@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <linearGradient id="nln" x1="0" x2="1"><stop offset="0" stop-color="#00f3ff"/><stop offset="1" stop-color="#7a00ff"/></linearGradient>
+    <style><![CDATA[
+      .bg{fill:#03030b;}
+      .c{fill:url(#nln); font-family:Orbitron, sans-serif; font-weight:700; font-size:26px;}
+    ]]></style>
+  </defs>
+  <rect class="bg" width="100%" height="100%"/>
+  <g transform="translate(60,60)" text-anchor="middle">
+    <rect x="-28" y="-28" width="56" height="56" rx="8" fill="#010114" stroke="#7a00ff" stroke-opacity="0.12"/>
+    <text class="c" y="8">in</text>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <linearGradient id="nw" x1="0" x2="1"><stop offset="0" stop-color="#00f3ff"/><stop offset="1" stop-color="#7a00ff"/></linearGradient>
+    <style><![CDATA[
+      .bg{fill:#03030b;}
+      .c{fill:url(#nw); font-family:Orbitron, sans-serif; font-weight:700; font-size:22px;}
+    ]]></style>
+  </defs>
+  <rect class="bg" width="100%" height="100%"/>
+  <g transform="translate(60,60)" text-anchor="middle">
+    <rect x="-34" y="-18" width="68" height="36" rx="6" fill="#010114" stroke="#00f3ff" stroke-opacity="0.12"/>
+    <text class="c" y="6">WWW</text>
+  </g>
+</svg>

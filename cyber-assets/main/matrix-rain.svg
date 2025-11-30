@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240">
+  <defs>
+    <linearGradient id="mg" x1="0" x2="1"><stop offset="0" stop-color="#00ff9c"/><stop offset="1" stop-color="#00f3ff"/></linearGradient>
+    <style><![CDATA[
+      .bg{fill:#000810;}
+      .code{font-family:monospace; fill:url(#mg); font-size:14px; opacity:0.85;}
+    ]]></style>
+  </defs>
+  <rect class="bg" width="100%" height="100%"/>
+  <!-- columns -->
+  <g transform="translate(0,0)">
+    <!-- generate vertical columns of characters as <text> with animateTransform -->
+    <text x="40" y="-20" class="code">010101010101</text>
+    <text x="120" y="-60" class="code">101110001011</text>
+    <text x="200" y="-40" class="code">110010101100</text>
+    <text x="280" y="-100" class="code">001100111000</text>
+    <text x="360" y="-20" class="code">111000111010</text>
+    <text x="440" y="-80" class="code">010101011110</text>
+    <text x="520" y="-40" class="code">101001010001</text>
+    <text x="600" y="-120" class="code">110111010100</text>
+    <text x="680" y="-60" class="code">001010101110</text>
+    <text x="760" y="-30" class="code">111100001011</text>
+    <text x="840" y="-90" class="code">010111000101</text>
+    <text x="920" y="-50" class="code">100110101011</text>
+    <text x="1000" y="-30" class="code">011010101100</text>
+    <text x="1080" y="-70" class="code">101010110010</text>
+
+    <!-- animate each to fall -->
+    <animateTransform xlink:href="#dummy" attributeName="transform" type="translate" from="0 -240" to="0 0" dur="1s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- simple falling animation by animating y position on each text element -->
+  <script type="application/ecmascript"><![CDATA[
+    // Inline JS not allowed on some hosts; using SMIL per element below instead.
+  ]]></script>
+
+  <!-- SMIL per text -->
+  <text x="40" y="-20" class="code">
+    010101010101
+    <animate attributeName="y" from="-20" to="260" dur="6s" repeatCount="indefinite" begin="0s"/>
+  </text>
+  <text x="120" y="-60" class="code">
+    101110001011
+    <animate attributeName="y" from="-60" to="260" dur="7s" repeatCount="indefinite" begin="0.6s"/>
+  </text>
+  <text x="200" y="-40" class="code">
+    110010101100
+    <animate attributeName="y" from="-40" to="260" dur="5.8s" repeatCount="indefinite" begin="0.2s"/>
+  </text>
+  <text x="280" y="-100" class="code">
+    001100111000
+    <animate attributeName="y" from="-100" to="260" dur="8s" repeatCount="indefinite" begin="0.3s"/>
+  </text>
+  <text x="360" y="-20" class="code">
+    111000111010
+    <animate attributeName="y" from="-20" to="260" dur="6.5s" repeatCount="indefinite" begin="0.9s"/>
+  </text>
+  <text x="440" y="-80" class="code">
+    010101011110
+    <animate attributeName="y" from="-80" to="260" dur="7.2s" repeatCount="indefinite" begin="0.4s"/>
+  </text>
+  <text x="520" y="-40" class="code">
+    101001010001
+    <animate attributeName="y" from="-40" to="260" dur="6.1s" repeatCount="indefinite" begin="0.7s"/>
+  </text>
+  <text x="600" y="-120" class="code">
+    110111010100
+    <animate attributeName="y" from="-120" to="260" dur="9s" repeatCount="indefinite" begin="0.15s"/>
+  </text>
+  <text x="680" y="-60" class="code">
+    001010101110
+    <animate attributeName="y" from="-60" to="260" dur="6.8s" repeatCount="indefinite" begin="0.5s"/>
+  </text>
+  <text x="760" y="-30" class="code">
+    111100001011
+    <animate attributeName="y" from="-30" to="260" dur="6.3s" repeatCount="indefinite" begin="0.25s"/>
+  </text>
+  <text x="840" y="-90" class="code">
+    010111000101
+    <animate attributeName="y" from="-90" to="260" dur="7.5s" repeatCount="indefinite" begin="0.35s"/>
+  </text>
+  <text x="920" y="-50" class="code">
+    100110101011
+    <animate attributeName="y" from="-50" to="260" dur="6.6s" repeatCount="indefinite" begin="0.45s"/>
+  </text>
+  <text x="1000" y="-30" class="code">
+    011010101100
+    <animate attributeName="y" from="-30" to="260" dur="6.9s" repeatCount="indefinite" begin="0.55s"/>
+  </text>
+  <text x="1080" y="-70" class="code">
+    101010110010
+    <animate attributeName="y" from="-70" to="260" dur="7.8s" repeatCount="indefinite" begin="0.65s"/>
+  </text>
+
+</svg>
